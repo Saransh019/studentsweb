@@ -1,16 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-#event-title {
-    color: rgb(252, 252, 252) !important;
-    text-shadow: 2px 2px rgb(0, 0, 0);
-    padding-bottom: 30px;
-}
-
-
-
-.section-title {
+.section-title h3{
     text-align: center;
     font-weight: bold;
     font-size: 45px;
+    color: rgb(252, 252, 252) !important;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding-top: 60px;
 }
 
 .bg-overlay {
@@ -24,6 +21,7 @@
 
 .dashboard-cards {
     position: relative;
+    bottom: 30px;
     padding-bottom: 20px;
     margin: 0 !important;
     color: black;
@@ -43,26 +41,52 @@
     max-width: 90%;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-family: "Arvo", serif;
     font-weight: 700;
     width: 20vw;
     z-index: 1;
 }
+.dashboard-cards .card-grp-achievement{
+    width: 25vw;
+}
+
 .dashboard-cards .card .image_container{
     width: 175px;
     height: 175px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 1px solid rgb(18, 62, 145);
-    border-radius: 50%;
     overflow: hidden;
-    padding: 0;
 }
 .dashboard-cards .card .image_container img{
+    margin-left: auto;
+    margin-right: auto;
     height: 180px;
     width: 180px;
     object-fit: cover;
+}
+.dashboard-cards .card .group_img_container{
+    width: 215px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 0;
+}
+.dashboard-cards .card .group_img_container img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 220px;
+    object-fit: cover;
+}
+.dashboard-cards .card .card-title .achiever{
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dashboard-cards .card .card-title .achievement_desp{
+    font-size: 1.2rem;
+    font-weight: normal;
 }
 .dashboard-cards .card:hover {
     box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
@@ -77,20 +101,6 @@
     z-index: 0;
 }
 
-.dashboard-cards .card .card-title h2 {
-    font-size: 30px;
-    letter-spacing: -0.05em;
-    margin: 0;
-    padding:0 ;
-}
-
-.dashboard-cards .card .card-title h2 small {
-    display: block;
-    font-size: 24px;
-    margin-top: 8px;
-    letter-spacing: -0.025em;
-}
-
 .dashboard-cards .card a:hover,
 .dashboard-cards .card a:focus {
     color: black;
@@ -99,10 +109,10 @@
 
 .dashboard-cards .card .card-description {
     position: relative;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: 'Lato', sans-serif;
     border-top: 1px solid #ddd;
-    padding: 10px 15px 0 15px;
+    padding: 20px;
 }
 
 .dashboard-cards .card .card-flap {

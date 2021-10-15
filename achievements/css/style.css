@@ -9,53 +9,6 @@ body {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 128, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Open Sans", sans-serif;
-	color: #000;
-	font-weight: 300;
-}
-
-h1 {
-	font-size: 45px;
-	line-height: 61px;
-}
-
-h2 {
-	font-size: 40px;
-	line-height: 50px;
-}
-
-h3 {
-	font-size: 20px;
-	line-height: 30px;
-}
-
-p,
-li,
-blockquote,
-label {
-	font-size: 16px;
-	letter-spacing: 0;
-	line-height: 25px;
-	color: #808080;
-	margin-bottom: 0;
-}
-
-cite {
-	font-size: 14px;
-	font-style: normal;
-}
-
-.lora {
-	font-family: "Lora", serif;
-	font-style: italic;
-}
-
 .navbar {
 	background-color: rgba(255, 255, 255, 0.4);
 }
